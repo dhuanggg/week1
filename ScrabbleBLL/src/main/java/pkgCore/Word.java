@@ -10,6 +10,7 @@ public class Word implements Comparable<Word> {
 	public Word (String word)
 	{
 		this.Word = word;
+		
 	}
 	@Override
 	public boolean equals(Object obj) {
