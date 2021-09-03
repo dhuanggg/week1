@@ -7,6 +7,10 @@ public class Word implements Comparable<Word> {
 	private UUID WordID;
 	private String Word;
 
+	public Word (String word)
+	{
+		this.Word = word;
+	}
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Complete the method. When does one word "equal" another? When the Word
