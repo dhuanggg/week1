@@ -9,6 +9,7 @@ public class Word implements Comparable<Word> {
 
 	public Word (String word)
 	{
+		this.WordID = UUID.randomUUID();
 		this.Word = word;
 		
 	}
