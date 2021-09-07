@@ -30,5 +30,8 @@ public class Word implements Comparable<Word> {
 	public String getWord() {
 		return Word;
 	}
+	public UUID getWordID() {
+		return WordID;
+	}
 
 }
